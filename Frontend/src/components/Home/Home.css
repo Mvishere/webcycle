@@ -1,0 +1,1134 @@
+body {
+    font-family: 'Poppins';
+    width: 100%;
+
+}
+
+.homepage-backgroundimage {
+    height: 900px;
+    width: 100%;
+    background: url('./images/nature2.jpg') no-repeat center center;
+    /* position: absolute; */
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 90px; */
+}
+
+
+.left {
+    margin-top: 100px;
+    color: white;
+    font-size: 5rem;
+}
+
+
+
+.right {
+    margin-top: 250px;
+    width: 40%;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.home-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.sustainability {
+    background-color: #EBFADC;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    padding: 3% 0%;
+}
+
+.susp {
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    font-size: 3.2rem;
+}
+
+.content {
+    font-size: 1.6rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.knoww {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 150px;
+    padding-top: 10px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: #555;
+    padding-left: 20px;
+    background-color: #EBFADC;
+}
+
+.knoww:hover {
+    background-color: #053909;
+}
+
+.knoww:hover .know-more {
+    color: white;
+}
+
+.know-more {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+/* changes */
+
+/* images */
+#poverty {
+    background-image: url('./images/poverty.jpg');
+    background-size: 100% 100%;
+}
+
+#health {
+    background-image: url('./images/health.jpg.avif');
+    background-size: 100% 100%;
+}
+
+#sanity {
+    background-image: url('./images/sanity.jpeg');
+    background-size: 100% 100%;
+}
+
+#industry {
+    background-image: url('./images/industry.jpg');
+    background-size: 100% 100%;
+}
+
+#edu {
+    background-image: url('./images/edu.jpg.webp.jpeg');
+    background-size: 100% 100%;
+}
+
+#waterbody {
+    background-image: url('./images/water.jpg');
+    background-size: 100% 100%;
+}
+
+#climate {
+    background-image: url('./images/climate.jpg');
+    background-size: 100% 100%;
+}
+
+#eco {
+    background-image: url('./images/eco.jpg.avif');
+    background-size: 100% 100%;
+}
+
+#hunger {
+    background-image: url('./images/hunger.jpg');
+    background-size: 100% 100%
+}
+
+.latestnews {
+    padding-bottom: 20px;
+    font-size: 4.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px rgb(63, 60, 60);
+}
+
+.latest {
+    border-radius: 20px;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 50px;
+    margin: 100px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;  */
+    background-color: #EBFADC;
+    height: auto;
+}
+
+#next-part {
+    margin-top: 8%;
+}
+
+.allnews {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+.news {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 25%;
+    height: 650px;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.newsimage {
+    height: 63%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.newsimage:hover {
+    transform: scale(1.1);
+}
+
+.newsinfo {
+    padding-left: 20px;
+    padding-top: 35px;
+    height: 20%;
+    font-size: 1.3rem;
+    background-color: white;
+}
+
+.imagecont {
+    width: 100%;
+}
+
+.readmorebtn {
+    font-size: 1.5rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: #102F15;
+    position: relative;
+}
+
+.readmorebtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.readmorebtn:hover {
+    background-color: #0c0c0c;
+}
+
+.show-more-homepage {
+    border-radius: 30px;
+    position: relative;
+    margin-top: 5%;
+    left: 43%;
+    width: 15%;
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    background-color: white;
+    height: 80px;
+}
+
+.show-more-homepage:hover {
+    background-color: black;
+    color: white;
+}
+
+#showless-homepage {
+    position: relative;
+    margin-right: 90%;
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+
+
+/* images */
+#plastic {
+    display: block;
+    background-image: url(./images/plastic.jpg.gif);
+    background-size: 100% 100%;
+}
+
+#climateimage {
+    display: block;
+    background-image: url(./images/climatenews.jpg.webp);
+    background-size: 100% 100%;
+}
+
+#solarcooking {
+    display: block;
+    background-image: url(./images/solar-cooking.jpg.webp);
+    background-size: 100% 100%;
+}
+
+#logicladder {
+    display: block;
+    background-image: url(./images/logicladder.jpg.webp);
+    background-size: 100% 100%;
+}
+
+#aiandgrow {
+    display: block;
+    background-image: url(./images/aiandgrow.jpg.webp);
+    background-size: 100% 100%;
+}
+
+#greenjobs {
+    display: block;
+    background-image: url(./images/green-jobs.jpg.webp);
+    background-size: 100% 100%;
+}
+
+#profitandsustain {
+    display: block;
+    background-image: url('./images/profitandsustain.jpg.webp');
+    background-size: 100% 100%;
+}
+
+#windmill {
+    display: block;
+    background-image: url('./images/windmill.jpeg');
+    background-size: 100% 100%;
+}
+
+#effi {
+    display: block;
+    background-image: url('./images/aiandsus.jpeg');
+    background-size: 100% 100%;
+
+}
+
+
+
+
+
+
+
+/* Home.css */
+/* navigation */
+
+.allgoals {
+
+    padding: 20px 55px;
+    background-color: #EBFADC;
+}
+
+.line-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    /* left: 43%; */
+    display: inline-block;
+    color: #333;
+    text-align: center;
+}
+
+.allgoals .goal {
+    margin-left: 0%;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    left: 10%;
+    right: 5%;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.allgoals .goal.active {
+
+    box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+}
+
+.allgoals .goal:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.allgoals .goal-info {
+    padding: 0 8% 4%;
+    font-size: 1.5rem;
+    color: #fff;
+    bottom: 6%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(calc(100% - 54px));
+    -webkit-transform: translateY(calc(100% - 54px));
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.allgoals .goal.active .goal-info {
+    transform: none;
+    -webkit-transform: none;
+}
+
+.allgoals .goal-info p {
+    opacity: 0;
+    -webkit-transform: translateY(32px);
+    transform: translateY(32px);
+    transition: all 0.4s ease-in-out 0.2s;
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+}
+
+.allgoals .goal.active .goal-info p {
+    font-weight: 700;
+    opacity: 1;
+
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+
+
+
+/* responsive */
+
+@media (max-width:2070px) {
+    .allgoals .goal {
+        width: 450px;
+        height: 500px;
+    }
+}
+
+@media (max-width:1920px) {
+    .allgoals .goal {
+        width: 425px;
+        height: 500px;
+    }
+
+    .show-more-homepage {
+        font-size: 1.3rem;
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width:1810px) {
+    .allgoals .goal {
+        width: 405px;
+        height: 500px;
+    }
+
+    #showless-homepage {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:1730px) {
+    .show-more-homepage {
+        font-size: 1.5rem;
+        width: 150px;
+        height: 70px;
+        border-radius: 14px;
+    }
+
+    .allgoals .goal {
+        width: 390px;
+        height: 450px;
+    }
+
+    .news {
+        height: 600px;
+    }
+
+    .newsimage {
+        height: 55%;
+    }
+}
+
+@media (max-width:1690px) {
+    .allgoals .goal {
+        width: 380px;
+        height: 450px;
+    }
+
+    .susp {
+        font-size: 2.3rem;
+    }
+
+    .content {
+        font-size: 1.2rem;
+    }
+
+    .readmorebtn {
+        font-size: 1rem;
+        width: 140px;
+    }
+}
+
+@media (max-width:1560px) {
+    .left {
+        font-size: 4rem;
+        margin-top: 250px;
+    }
+
+    .right {
+        font-size: 2rem;
+        margin-top: 250px;
+    }
+
+    .allgoals .goal {
+        width: 340px;
+        height: 425px;
+    }
+
+    .allgoals .goal-info {
+        font-size: 1.3rem;
+    }
+
+    .susp {
+        font-size: 2.3rem;
+    }
+
+    .content {
+        font-size: 1.3rem;
+    }
+
+    /* .line-title {
+        left: 40%;
+    } */
+}
+
+@media(max-width:1514px) {
+    .homepage-backgroundimage {
+        height: 700px;
+    }
+
+    .left {
+        margin-top: 150px;
+        max-height: 200px;
+    }
+
+    .right {
+        position: relative;
+        /* margin-left: 100px; */
+        margin-top: 250px;
+        font-size: 1.5rem;
+    }
+
+    .show-more-homepage {
+        font-size: 1.1rem;
+        height: 50px;
+        font-weight: 500;
+    }
+
+    #showless-homepage {
+        font-size: 1.1rem;
+        height: 50px;
+        font-weight: 500;
+    }
+
+    .allnews {
+        gap: 50px;
+    }
+
+    .news {
+        width: 28%;
+    }
+
+    .readmorebtn {
+        font-size: 1.2rem;
+        width: 160px;
+        height: 40px;
+    }
+
+
+}
+
+@media (max-width:1470px) {
+    .homepage-backgroundimage {
+        height: 800px;
+    }
+
+    .left {
+        font-size: 3.3rem;
+    }
+
+    .latestnews {
+        font-size: 3rem;
+        margin-bottom: 0px;
+        text-shadow: none;
+    }
+
+    .allgoals .goal {
+        width: 300px;
+        height: 380px;
+    }
+
+    .susp {
+        font-size: 2rem;
+    }
+
+    .content {
+        font-size: 1.1rem;
+    }
+
+    .allgoals .goal-info {
+        font-size: 1rem;
+    }
+
+    .knoww {
+        height: 35px;
+        width: 120px;
+        padding-top: 5px;
+        padding-left: 15px;
+        border-radius: 10px;
+    }
+
+    .know-more {
+        font-size: 0.95rem;
+    }
+
+    .allnews {
+        gap: 100px;
+    }
+
+    .news {
+        height: 450px;
+        width: 25%;
+    }
+
+    .newsinfo {
+        font-size: 1rem;
+    }
+
+    .readmorebtn {
+        font-size: 0.9rem;
+        width: 100px;
+        height: 30px;
+        padding-top: 7px;
+    }
+}
+
+@media (max-width:1338px) {
+    .allgoals .goal {
+        width: 300px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width:1300px) {
+    /* .line-title {
+        margin-left: 0%;
+        text-align: left;
+    } */
+
+    .allgoals .goal {
+        width: 270px;
+        height: 370px;
+    }
+}
+
+@media (max-width:1350px) {
+    .latestnews {
+        font-size: 3rem;
+        text-shadow: none;
+    }
+
+    .newsinfo {
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+
+    .allnews {
+        gap: 60px;
+    }
+
+    .news {
+        height: 480px;
+        width: 27%;
+    }
+
+    .newsimage {
+        width: 100%;
+        height: 60%;
+    }
+
+    #showless-homepage {
+        width: 125px;
+        font-size: 1rem;
+        font-weight: 600;
+        left: 3%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width:1200px) {
+    /* .line-title {
+        left: 36%;
+    } */
+
+    .homepage-backgroundimage {
+        height: 700px;
+    }
+
+    .left {
+        margin-top: 100px;
+        font-size: 3rem;
+    }
+
+    .allgoals .goal {
+        width: 300px;
+    }
+
+    .allgoals .goal-info {
+        font-size: 1.12rem;
+    }
+
+    .allnews {
+        gap: 50px;
+    }
+
+    .news {
+        height: 430px;
+        width: 28%;
+    }
+
+    .newsinfo {
+        font-size: 0.9rem;
+    }
+
+    .know-more {
+        font-size: 0.9rem;
+    }
+
+    .knoww {
+        height: 35px;
+        width: 115px;
+        padding-top: 3px;
+    }
+}
+
+@media (max-width:1000px) {
+    .homepage-backgroundimage {
+        height: 700px;
+    }
+
+    .left {
+        font-size: 3rem;
+        margin-top: 60px;
+    }
+
+    .latest {
+        width: 100%;
+    }
+
+    .news {
+        height: 170px;
+        margin: 50px;
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .newsimage {
+        height: 100%;
+    }
+
+    .newsinfo {
+        margin-right: 60px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width:1001px) {
+    .allnews {
+        gap: 0px;
+    }
+
+    .news {
+        margin-top: 15px;
+    }
+
+    .readmorebtn {
+        height: 33px;
+    }
+
+    #showless-homepage {
+        margin-top: 10px;
+        left: 0%;
+        margin-right: 100px;
+    }
+
+}
+
+@media (max-width:1100px) {
+    /* .line-title {
+        left: 35%;
+    } */
+
+    .left {
+        margin-top: 50px;
+    }
+
+    .right {
+        margin-top: 180px;
+    }
+
+    .newsimage {
+        width: 100%;
+    }
+}
+
+@media(max-width:960px) {
+    .left {
+        margin-top: 100px;
+        font-size: 3rem;
+    }
+
+    .right {
+        margin-top: 250px;
+    }
+
+    /* .line-title {
+        left: 35%;
+    } */
+
+    .sustainability {
+        width: 95%;
+        margin: 0px auto;
+        box-shadow: none;
+    }
+
+    .home-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .allgoals .goal {
+        left: 250px;
+        width: 370px;
+    }
+
+    .latest {
+        width: 100%;
+    }
+
+    .newsimage {
+        width: 70%;
+    }
+
+    .news {
+        height: 180px;
+    }
+
+    .newsinfo {
+        padding-left: 10px;
+        padding-top: 25px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    .line-title {
+        /* left: 39%; */
+        font-size: 2.1rem;
+    }
+
+    .allgoals .goal {
+        left: 200px;
+    }
+}
+
+@media (max-width:850px) {
+
+    .news {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .newsimage {
+        width: 100%;
+    }
+
+    .newsinfo {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    #showless-homepage {
+        left: 5%;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:790px) {
+    .allgoals .goal {
+        left: 150px;
+    }
+
+    .show-more-homepage {
+        left: 35%;
+    }
+}
+
+@media (max-width:690px) {
+    .allgoals .goal {
+        left: 100px;
+    }
+}
+
+@media(max-width:670px) {
+
+    .left {
+        margin-top: 130px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .readmorebtn {
+        height: 35px;
+    }
+}
+
+@media (max-width:710px) {
+    .newsimage {
+        width: 130%;
+    }
+}
+
+@media (max-width:650px) {
+    .homepage-backgroundimage {
+        height: 600px;
+    }
+
+    .left {
+        margin-top: 200px;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .newsinfo {
+        font-size: 1rem;
+    }
+
+    .readmorebtn {
+        font-size: 0.9rem;
+        height: 33px;
+        width: 100px;
+    }
+}
+
+@media(max-width:600px) {
+    /* .line-title {
+        left: 30%;
+    } */
+
+    .allgoals .goal {
+        left: 70px;
+        width: 340px;
+    }
+
+    .knoww {
+        height: 35px;
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .news {
+        height: 195px;
+    }
+
+    .newsimage {
+        width: 140%;
+    }
+
+    .know-more {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:550px) {
+    .news {
+        height: 220px;
+    }
+
+    .newsinfo {
+        font-size: 0.94rem;
+    }
+
+    .newsimage {
+        width: 170%;
+    }
+
+    .allgoals .goal {
+        left: 50px;
+    }
+
+    #showless-homepage {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width:510px) {
+    .allgoals .goal {
+        left: 0px;
+    }
+
+    .newsimage {
+        width: 170%;
+    }
+
+    .newsinfo {
+        font-size: 0.91rem;
+        margin-right: 10px;
+    }
+
+    .allgoals .goal {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:420px) {
+    .susp {
+        height: 120px;
+    }
+
+    /* .line-title {
+        left: 25%;
+    } */
+}
+
+@media (max-width:480px) {
+    .allgoals .goal {
+        width: 280px;
+    }
+}
+
+@media (max-width:440px) {
+    .allgoals .goal {
+        left: -40px;
+        width: 300px;
+    }
+
+    .news {
+        padding: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .newsimage {
+        width: 130%;
+    }
+
+    .news {
+        height: 170px;
+    }
+}
+
+@media (max-width:360px) {
+    .show-more-homepage {
+        left: 30%;
+        width: 140px;
+        font-size: 0.91rem;
+    }
+
+    .newsimage {
+        width: 200%;
+    }
+
+    .news {
+        height: 200px;
+    }
+
+    #showless-homepage {
+        left: 15%;
+    }
+}
+
+@media (max-width:330px) {
+    .left {
+        font-size: 2rem;
+    }
+
+}
+
+/* darkmode */
+/* Home.css  */
+
+.homepage-main-container.dark-mode {
+    background-color: rgb(1, 40, 1);
+    /* background-color: #033705; */
+    color: #ffffff;
+}
+
+.dark-mode .sustainability {
+    background-color: #033410;
+}
+
+.homepage-backgroundimage.dark-mode {
+    background-color: #033410;
+    color: #ffffff;
+    top: 0px;
+    padding-top: 0px;
+}
+
+.dark-mode .line-title {
+    color: white;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.dark-mode .allgoals {
+    background-color: #033410;
+}
+
+.dark-mode .latest {
+    background-color: #033410;
+}
+
+.dark-mode .news {
+    background-color: #173f06;
+    box-shadow: #033410 0px 10px 20px, #033410 0px 6px 6px;
+}
+
+.dark-mode .newsinfo {
+    background-color: #173f06;
+}
+
+.dark-mode .show-more-homepage {
+    color: white;
+    background-color: black;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.dark-mode .show-more-homepage:hover {
+    background-color: #033410;
+}
+
+/* Define other dark mode styles as needed */

@@ -1,0 +1,267 @@
+.aboutusbody {
+  padding: 50px;
+}
+
+.lightbackground {
+  background-color: white;
+}
+
+.aboutusdiv,
+.ourstorydiv,
+.missiondiv,
+.ourapproachdiv,
+.meettheteamdiv,
+.joinusdiv,
+.getinvolveddiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.joinusdiv,
+.getinvolveddiv {
+  margin-top: 100px;
+}
+
+.aboutustextdiv,
+.ourstorytextdiv,
+.missiontextdiv,
+.ourapproachtextdiv,
+.joinustextdiv,
+.getinvolvedtextdiv {
+  width: 40%;
+
+}
+
+.aboutusimgdiv,
+.ourstoryimgdiv,
+.missionimgdiv,
+.ourapproachimgdiv,
+.joinusimgdiv,
+.getinvolvedimgdiv {
+  width: 300px;
+  height: 400px;
+  /* Adjust the height as needed */
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  background-position: center;
+
+}
+
+
+
+.division {
+  flex: 1;
+  margin: 20px;
+  text-align: center;
+  border-radius: 12px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 5px 2px rgba(128, 128, 128, 0.293);
+}
+
+
+
+.img-aboutus {
+  background-image: url('https://images.pexels.com/photos/9324330/pexels-photo-9324330.jpeg?auto=compress&cs=tinysrgb&w=800');
+}
+
+.img-ourstory {
+  background-image: url('images/ourstory.jpg');
+}
+
+.img-mission {
+  background-image: url('https://images.pexels.com/photos/3010250/pexels-photo-3010250.jpeg?auto=compress&cs=tinysrgb&w=800');
+}
+
+.img-ourapproach {
+  background-image: url('https://images.pexels.com/photos/9324359/pexels-photo-9324359.jpeg?auto=compress&cs=tinysrgb&w=800');
+}
+
+.img-joinus {
+  background-image: url('https://images.pexels.com/photos/3830752/pexels-photo-3830752.jpeg?auto=compress&cs=tinysrgb&w=800');
+}
+
+.img-getinvolved {
+  background-image: url('https://images.pexels.com/photos/3184614/pexels-photo-3184614.jpeg?auto=compress&cs=tinysrgb&w=800');
+}
+
+.photo {
+  border-radius: 10px;
+  width: 100px;
+  /* Adjust as needed */
+  height: 120px;
+  /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+.img-manas {
+  background-image: url('images/manas.jpg');
+}
+
+.img-bhavyanshi {
+  background-image: url('images/bhavyanshi.jpg');
+}
+
+.img-manisha {
+  background-image: url('images/manisha.jpg');
+}
+
+.img-aayushi {
+  background-image: url('images/aayushi.jpg');
+}
+
+.aboutuspara {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.backdiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.instalogoabt {
+  background-image: url(./images/instagramlogo.jpg);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.linkedinlogo {
+  background-image: url(./images/linkedinlogo.jpg);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.photo:hover {
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+}
+
+
+.alink {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.alink:hover {
+  font-size: 15px;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 1200px) {
+
+  .aboutusimgdiv,
+  .ourstoryimgdiv,
+  .missionimgdiv,
+  .ourapproachimgdiv,
+  .joinusimgdiv,
+  .getinvolvedimgdiv {
+    width: 300px;
+    height: 400px;
+    /* Adjust the height as needed */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-position: center;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+  .aboutusdiv,
+  .ourstorydiv,
+  .missiondiv,
+  .ourapproachdiv,
+  .joinusdiv,
+  .getinvolveddiv {
+    flex-direction: column;
+  }
+
+  .aboutustextdiv,
+  .ourstorytextdiv,
+  .missiontextdiv,
+  .ourapproachtextdiv,
+  .joinustextdiv,
+  .getinvolvedtextdiv,
+  .aboutusimgdiv,
+  .ourstoryimgdiv,
+  .missionimgdiv,
+  .ourapproachimgdiv,
+  .joinusimgdiv,
+  .getinvolvedimgdiv {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 95%;
+  }
+
+  .aboutusimgdiv,
+  .ourstoryimgdiv,
+  .missionimgdiv,
+  .ourapproachimgdiv,
+  .joinusimgdiv,
+  .getinvolvedimgdiv {
+    width: 200px;
+    height: 300px;
+    /* Adjust the height as needed */
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-position: center;
+
+  }
+
+  .aboutusbody {
+    padding: 10px;
+  }
+
+  .division {
+    flex-basis: 100%;
+  }
+}
+
+/* darkmode */
+.aboutusbody.dark-mode {
+  background-color: rgb(1, 40, 1);
+  color: white;
+}
+
+.dark-mode .lightbackground {
+  background-color: rgb(1, 40, 1);
+}
+
+.dark-mode .aboutusdiv,
+.dark-mode .ourstorydiv,
+.dark-mode .missiondiv,
+.dark-mode .ourapproachdiv,
+.dark-mode .meettheteamdiv,
+.dark-mode .joinusdiv,
+.dark-mode .getinvolveddiv {
+  box-shadow: 0 4px 8px rgba(248, 246, 246, 0.1);
+  background-color: #033410;
+}
+
+.dark-mode .alink {
+  color: white;
+}

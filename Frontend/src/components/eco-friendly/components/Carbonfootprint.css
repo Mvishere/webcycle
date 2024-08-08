@@ -1,0 +1,56 @@
+/* src/CarbonFootprintForm.css */
+.carbonfootprint-form-container {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 40px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    background-color: #EBFADC;
+    /* background-color: #f9f9f9; */
+}
+
+.carbonfootprint-form-group {
+    margin-bottom: 15px;
+}
+
+.carbonfootprint-form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.carbonfootprint-form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.carbonfootprint-submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkgreen;
+    /* background-color: #007bff; */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.carbonfootprint-result-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carbonfootprint-result-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.carbonfootprint-result-value {
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.closeMap-btn{
+
+    background-image: url("./../assets/Images/cross.png");
+    background-position:center ;
+    background-size:contain ;
+   background-color:black; 
+   background-repeat: no-repeat;
+   height: 1rem;
+   width: 1rem;
+   
+}
+.close-btn{
+    cursor:pointer;
+    height: 1rem;
+    width:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    border-color: black;
+    border: solid;
+    border-width: 0px;
+    position: absolute;
+    padding:  1px 0px 1px 0px;
+    right:0;
+    top:0;
+
+}

@@ -1,0 +1,36 @@
+.leaderboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 40px 0px;
+}
+
+.leaderboard-header {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+    width: 90vw;
+}
+
+.leaderboard-heading {
+    padding: 10px 0px;
+}
+
+.leaderboard-values {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr;
+    width: 90vw;
+}
+
+.leaderboard-header div {
+    color: white;
+    border: 1px solid rgb(68, 68, 68);
+    padding: 5px 0px 5px 10px;
+    background-color: black;
+}
+
+.leaderboard-values div {
+    color: white;
+    border: 1px solid rgb(68, 68, 68);
+    padding: 5px 0px 5px 10px;
+    background-color: black;
+}

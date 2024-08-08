@@ -1,0 +1,22 @@
+.typewriter-effect {
+    display: inline-block;
+    /* font-size: 'Poppins'; */
+    font-family: 'Poppins';
+    /* font-weight: 100; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 300; 
+    white-space: pre-wrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    animation: blink 0.75s step-end infinite;
+    position: absolute;
+  }
+  
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: black;
+    }
+  }

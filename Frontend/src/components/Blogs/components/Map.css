@@ -1,0 +1,52 @@
+.openMap-btn {
+  background-image: url("./../assets/Images/mapIcon.png");
+  color: #000000;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: bold;
+  height: 4rem;
+  width: 4rem;
+}
+.Map-btn {
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  right: 1.1rem;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border-width: 1px;
+  border-color: green;
+}
+.Map {
+  position: fixed;
+  bottom: 0.1rem;
+  right: 1rem;
+  z-index: 10;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  position: fixed;
+  z-index: 10;
+  background-color: darkgreen;
+  background-color: rgba(0, 100, 0, 0.6);
+  top: 10%;
+  left: 15%;
+
+  height: 80%;
+  width: 70%;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0.1px;
+  border: solid;
+}

@@ -1,0 +1,32 @@
+/* Target the slick-slider container */
+.slick-slider,
+.slick-track,
+.slick-list,
+.slick-slide {
+  box-shadow: none !important;
+  /* Ensure no box shadow is applied */
+  border: none !important;
+  /* Remove any border that might appear as a shadow */
+}
+
+/* Optional: Adjust other slider elements as needed */
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+  /* Change arrow color to match your design */
+}
+
+.slick-dots li button:before {
+  color: #000;
+  /* Change dot color to match your design */
+}
+
+.slick-dots {
+  position: relative !important;
+}
+
+@media (max-width: 564px) {
+  .czilnS {
+    padding: 0px;
+  }
+}

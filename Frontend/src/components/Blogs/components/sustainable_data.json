@@ -1,0 +1,486 @@
+{
+  "countries": [
+    {
+      "country": "Germany",
+      "latitude": 51.1657,
+      "longitude": 10.4515,
+      "financial_contribution": {
+        "amount": "15 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "National Sustainable Development Strategy",
+          "description": "Germany's comprehensive policy framework to achieve the SDGs.",
+          "impact": "Significant reduction in carbon emissions and increased renewable energy use."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 1": "No Poverty",
+        "SDG 2": "Zero Hunger",
+        "SDG 3": "Good Health and Well-being",
+        "details": [
+          {
+            "sdg": "SDG 1",
+            "progress": "Poverty rate reduced by 5% over the past year."
+          },
+          {
+            "sdg": "SDG 2",
+            "progress": "Improved agricultural productivity through sustainable practices."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Kenya",
+      "latitude": -1.286389,
+      "longitude": 36.817223,
+      "financial_contribution": {
+        "amount": "2 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Big Four Agenda",
+          "description": "Kenya's strategic initiatives focusing on affordable housing, manufacturing, universal healthcare, and food security.",
+          "impact": "Enhanced food security and improved healthcare access."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 1": "No Poverty",
+        "SDG 2": "Zero Hunger",
+        "SDG 3": "Good Health and Well-being",
+        "details": [
+          {
+            "sdg": "SDG 1",
+            "progress": "Increased social protection programs for vulnerable populations."
+          },
+          {
+            "sdg": "SDG 2",
+            "progress": "Significant improvements in food security and agricultural resilience."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Brazil",
+      "latitude": -14.2350,
+      "longitude": -51.9253,
+      "financial_contribution": {
+        "amount": "5 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Amazon Fund",
+          "description": "A fund aimed at preventing deforestation in the Amazon rainforest.",
+          "impact": "Reduction in deforestation rates and improved conservation efforts."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 13": "Climate Action",
+        "SDG 15": "Life on Land",
+        "details": [
+          {
+            "sdg": "SDG 13",
+            "progress": "Reduction in greenhouse gas emissions through reforestation projects."
+          },
+          {
+            "sdg": "SDG 15",
+            "progress": "Increased protection of biodiversity in the Amazon."
+          }
+        ]
+      }
+    },
+    {
+      "country": "India",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "financial_contribution": {
+        "amount": "8 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Clean India Mission",
+          "description": "An initiative to improve sanitation and waste management.",
+          "impact": "Improved urban cleanliness and sanitation facilities."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 6": "Clean Water and Sanitation",
+        "SDG 11": "Sustainable Cities and Communities",
+        "details": [
+          {
+            "sdg": "SDG 6",
+            "progress": "Increased access to clean drinking water and sanitation facilities."
+          },
+          {
+            "sdg": "SDG 11",
+            "progress": "Enhanced waste management and cleaner public spaces."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Australia",
+      "latitude": -25.2744,
+      "longitude": 133.7751,
+      "financial_contribution": {
+        "amount": "3 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Great Barrier Reef Restoration",
+          "description": "Efforts to restore and protect the Great Barrier Reef.",
+          "impact": "Improved coral health and marine biodiversity."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 14": "Life Below Water",
+        "SDG 15": "Life on Land",
+        "details": [
+          {
+            "sdg": "SDG 14",
+            "progress": "Efforts to reduce coral bleaching and improve reef health."
+          },
+          {
+            "sdg": "SDG 15",
+            "progress": "Enhanced protection of terrestrial ecosystems."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Canada",
+      "latitude": 56.1304,
+      "longitude": -106.3468,
+      "financial_contribution": {
+        "amount": "7 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Pan-Canadian Framework on Clean Growth and Climate Change",
+          "description": "Canada's plan to address climate change and support clean economic growth.",
+          "impact": "Reduction in greenhouse gas emissions and promotion of clean technology."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 13": "Climate Action",
+        "SDG 7": "Affordable and Clean Energy",
+        "details": [
+          {
+            "sdg": "SDG 13",
+            "progress": "Decreased carbon footprint through clean energy initiatives."
+          },
+          {
+            "sdg": "SDG 7",
+            "progress": "Increased renewable energy production and usage."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Japan",
+      "latitude": 36.2048,
+      "longitude": 138.2529,
+      "financial_contribution": {
+        "amount": "10 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Sustainable Development Goals Action Plan",
+          "description": "Japan's comprehensive strategy to achieve the SDGs domestically and internationally.",
+          "impact": "Enhanced international cooperation on sustainable development."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 9": "Industry, Innovation and Infrastructure",
+        "SDG 12": "Responsible Consumption and Production",
+        "details": [
+          {
+            "sdg": "SDG 9",
+            "progress": "Improved infrastructure for sustainable industrial development."
+          },
+          {
+            "sdg": "SDG 12",
+            "progress": "Promotion of sustainable consumption and production patterns."
+          }
+        ]
+      }
+    },
+    {
+      "country": "United Kingdom",
+      "latitude": 55.3781,
+      "longitude": -3.4360,
+      "financial_contribution": {
+        "amount": "9 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Clean Growth Strategy",
+          "description": "The UK's plan to grow the national income while cutting greenhouse gas emissions.",
+          "impact": "Economic growth with a significant reduction in carbon emissions."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 7": "Affordable and Clean Energy",
+        "SDG 13": "Climate Action",
+        "details": [
+          {
+            "sdg": "SDG 7",
+            "progress": "Expansion of renewable energy sources and technologies."
+          },
+          {
+            "sdg": "SDG 13",
+            "progress": "National reduction in greenhouse gas emissions."
+          }
+        ]
+      }
+    },
+    {
+      "country": "China",
+      "latitude": 35.8617,
+      "longitude": 104.1954,
+      "financial_contribution": {
+        "amount": "20 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Belt and Road Initiative",
+          "description": "Infrastructure and economic development strategy aiming to enhance regional connectivity.",
+          "impact": "Boosted economic growth and sustainable development in participating countries."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 9": "Industry, Innovation and Infrastructure",
+        "SDG 8": "Decent Work and Economic Growth",
+        "details": [
+          {
+            "sdg": "SDG 9",
+            "progress": "Improved infrastructure and industrial innovation."
+          },
+          {
+            "sdg": "SDG 8",
+            "progress": "Creation of sustainable job opportunities."
+          }
+        ]
+      }
+    },
+    {
+      "country": "France",
+      "latitude": 46.6034,
+      "longitude": 1.8883,
+      "financial_contribution": {
+        "amount": "12 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Energy Transition for Green Growth Act",
+          "description": "France's law aimed at diversifying energy sources and reducing greenhouse gas emissions.",
+          "impact": "Increased energy efficiency and renewable energy production."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 7": "Affordable and Clean Energy",
+        "SDG 13": "Climate Action",
+        "details": [
+          {
+            "sdg": "SDG 7",
+            "progress": "Significant increase in the use of renewable energy."
+          },
+          {
+            "sdg": "SDG 13",
+            "progress": "Reduction in national carbon emissions."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Netherlands",
+      "latitude": 52.1326,
+      "longitude": 5.2913,
+      "financial_contribution": {
+        "amount": "5 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Circular Economy Strategy",
+          "description": "A plan to transition to a circular economy by 2050.",
+          "impact": "Reduction in waste and increased recycling and reusability of products."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 12": "Responsible Consumption and Production",
+        "SDG 13": "Climate Action",
+        "details": [
+          {
+            "sdg": "SDG 12",
+            "progress": "Increased recycling rates and sustainable production methods."
+          },
+          {
+            "sdg": "SDG 13",
+            "progress": "National efforts to mitigate climate change impacts."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Sweden",
+      "latitude": 60.1282,
+      "longitude": 18.6435,
+      "financial_contribution": {
+        "amount": "4 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Fossil-free Sweden",
+          "description": "Initiative to make Sweden one of the world's first fossil-free welfare countries.",
+          "impact": "Significant reduction in fossil fuel usage and increased renewable energy."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 7": "Affordable and Clean Energy",
+        "SDG 13": "Climate Action",
+        "details": [
+          {
+            "sdg": "SDG 7",
+            "progress": "High proportion of energy from renewable sources."
+          },
+          {
+            "sdg": "SDG 13",
+            "progress": "Strong national commitment to climate neutrality."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Norway",
+      "latitude": 60.4720,
+      "longitude": 8.4689,
+      "financial_contribution": {
+        "amount": "6 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Climate Cure 2030",
+          "description": "Norway's strategy to reduce greenhouse gas emissions by 50% by 2030.",
+          "impact": "Substantial progress in emission reductions and promotion of clean energy."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 13": "Climate Action",
+        "SDG 7": "Affordable and Clean Energy",
+        "details": [
+          {
+            "sdg": "SDG 13",
+            "progress": "Significant reduction in greenhouse gas emissions."
+          },
+          {
+            "sdg": "SDG 7",
+            "progress": "Increased investment in renewable energy projects."
+          }
+        ]
+      }
+    },
+    {
+      "country": "Denmark",
+      "latitude": 56.2639,
+      "longitude": 9.5018,
+      "financial_contribution": {
+        "amount": "5 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Climate Plan for a Green Transition",
+          "description": "Denmark's plan to achieve a 70% reduction in carbon emissions by 2030.",
+          "impact": "Major reduction in national carbon emissions and promotion of green technologies."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 13": "Climate Action",
+        "SDG 7": "Affordable and Clean Energy",
+        "details": [
+          {
+            "sdg": "SDG 13",
+            "progress": "National progress towards significant emission reductions."
+          },
+          {
+            "sdg": "SDG 7",
+            "progress": "High proportion of energy from renewable sources."
+          }
+        ]
+      }
+    },
+    {
+      "country": "South Korea",
+      "latitude": 35.9078,
+      "longitude": 127.7669,
+      "financial_contribution": {
+        "amount": "8 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Green New Deal",
+          "description": "South Korea's initiative to achieve carbon neutrality by 2050.",
+          "impact": "Promotion of green technology and reduction in carbon emissions."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 7": "Affordable and Clean Energy",
+        "SDG 9": "Industry, Innovation and Infrastructure",
+        "details": [
+          {
+            "sdg": "SDG 7",
+            "progress": "Increased use of renewable energy."
+          },
+          {
+            "sdg": "SDG 9",
+            "progress": "Improved infrastructure for sustainable industrial development."
+          }
+        ]
+      }
+    },
+    {
+      "country": "New Zealand",
+      "latitude": -40.9006,
+      "longitude": 174.8860,
+      "financial_contribution": {
+        "amount": "4 billion USD",
+        "year": 2023
+      },
+      "policy_initiatives": [
+        {
+          "initiative": "Zero Carbon Act",
+          "description": "New Zealand's legislation to achieve net-zero carbon emissions by 2050.",
+          "impact": "National efforts to reduce carbon emissions and promote sustainability."
+        }
+      ],
+      "sdg_progress": {
+        "SDG 13": "Climate Action",
+        "SDG 15": "Life on Land",
+        "details": [
+          {
+            "sdg": "SDG 13",
+            "progress": "Strong national commitment to reducing carbon emissions."
+          },
+          {
+            "sdg": "SDG 15",
+            "progress": "Increased protection of biodiversity and natural habitats."
+          }
+        ]
+      }
+    }
+  ]
+}
