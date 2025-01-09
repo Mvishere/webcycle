@@ -71,5 +71,3 @@ Have questions or feedback? Reach out to us through the GitHub repository or con
 **Join us in building a sustainable future!** 🌍
 
 ---
-
-This version adds icons for a more visually engaging experience, emphasizes the mission of sustainability, and provides a more welcoming tone for contributors and users alike.
